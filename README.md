@@ -1,4 +1,4 @@
-#Code Challenge 5: Angular and MongoDB Hero Tracker
+#Code Challenge 5: Angular and MongoDB, Hero Tracker
 
 #Instructions
 This assessment is intended to see how you are progressing with Angular, Mongo, Node, and Express. It is open-notes and open-book. No talking is allowed for the duration.
