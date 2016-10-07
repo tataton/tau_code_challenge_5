@@ -1,4 +1,4 @@
-#Code Challenge 5: Angular and MongoDB
+#Code Challenge 5: Angular and MongoDB Hero Tracker
 
 #Instructions
 This assessment is intended to see how you are progressing with Angular, Mongo, Node, and Express. It is open-notes and open-book. No talking is allowed for the duration.
@@ -52,3 +52,21 @@ Your app will need a Node/Express server that can serve static files. It should 
 
 ##Database
 If you follow the naming guidelines above for your Collection, there is no need to submit any information about your database.
+
+
+
+#Challenge Grading Guidelines
+
+##Reinforcement Needed
+1 - Individual was missing many logic components to show that the group was on the path to completion. Code is generally unorganized and difficult to follow. Note that a grading instructor can use their own discretion to make the call on 'close' submissions. Meaning that an instructor can grade an 'almost complete' assessment as a 2 if their are indicators that the student would have gotten the assessment done with more time, or perhaps forgot some small syntactically. 
+
+##Meets Expectations
+2 - Individual was able to successfully complete the challenge based on the requirements of the project. Code is generally well organized. Variable and Function names are descriptive of what their purpose is. 
+
+##Above Expectations
+3 - Same as 2, but also includes: Abstraction is used in such a way that the application is modular where appropriate. 
+
+##Challenge-Specific Considerations
+1. Incomplete; doesn't run. Missing an entire View, Controller, or no client side routing.
+2. Complete. All features work as expected.
+3. Complete. Used a Factory or had excellent styling added.
