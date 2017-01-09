@@ -9,6 +9,6 @@ var heroSchema = new Schema({
   power_name: String
 });
 
-var Hero = mongoose.model('heros', heroSchema); // heros is the collection name
+var Hero = mongoose.model('heroes', heroSchema); // heros is the collection name
 
 module.exports = Hero;

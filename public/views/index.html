@@ -6,21 +6,31 @@
     <script src="./scripts/script.js" charset="utf-8"></script>
     <link rel="stylesheet" href="./styles/style.css">
   </head>
-  <body>
-    <h2>Hero Tracker</h2>
-    <form id="stylized" class="myform">
-      <label for="alias">Alias:</label>
-      <input type="text" name="alias" value="">
-      <label for="first">First Name:</label>
-      <input type="text" name="first" value="">
-      <label for="last">Last Name:</label>
-      <input type="text" name="last" value="">
-      <label for="city">City:</label>
-      <input type="text" name="city" value="">
-      <label for="power">Power:</label>
-      <input type="text" name="power" value="">
-      <button type="button" name="button">Add Hero</button>
-    </form>
-    <div><!-- Hero View All --></div>
+  <body ng-app="myApp">
+    <div ng-controller="HeroController">
+      <h2>Hero Tracker</h2>
+      <form id="stylized" class="myform">
+        <label for="alias">Alias:</label>
+        <input type="text" name="alias" value="" ng-model="aliasIn">
+        <label for="first">First Name:</label>
+        <input type="text" name="first" value="" ng-model="firstNameIn">
+        <label for="last">Last Name:</label>
+        <input type="text" name="last" value="" ng-model="lastNameIn">
+        <label for="city">City:</label>
+        <input type="text" name="city" value="" ng-model="cityIn">
+        <label for="power">Power:</label>
+        <input type="text" name="power" value="" ng-model="powerIn">
+        <button type="button" name="button" ng-click="addHero()">Add Hero</button>
+      </form>
+      <hr>
+      <div ng-repeat="hero in heroArray">
+        <p><span class="bold">Alias:</span> {{hero.alias}}</p>
+        <p><span class="bold">First Name:</span> {{hero.first_name}}</p>
+        <p><span class="bold">Last Name:</span> {{hero.last_name}}</p>
+        <p><span class="bold">City:</span> {{hero.city}}</p>
+        <p><span class="bold">Power:</span> {{hero.power_name}}</p>
+        <hr>
+      </div>
+    </div>
   </body>
 </html>
