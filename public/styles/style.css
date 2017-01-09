@@ -7,9 +7,6 @@ body {
   padding:14px;
 }
 
-#stylized label {
-  display:block;
-}
 #stylized input {
   padding:4px 2px;
   border:solid 1px LightBlue;

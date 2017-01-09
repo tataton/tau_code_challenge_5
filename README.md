@@ -8,14 +8,18 @@ A friendly reminder that this is simply a way for us to see how you are individu
 Just relax and show us what you know!
 
 ##Your Hero Tracker
-The Department of Superhero Knowledge needs an app to help track super hero aliases and powers. You are going to build them this app with Angular and MongoDB. This app will have the following features.
+The Department of Superhero Knowledge needs an app to help track super hero aliases and powers. You are going to build them this app with Angular and MongoDB. 
 
-Some of the code has been started for you. Fork and clone this repo to get started. There pieces of both the client side and the server side that need completion.
+Some of the code has been started for you. Fork and clone this repo to get started. There pieces of both the client side and the server side that need completion. The following files will need your attention:
+
+- On the server side you will need to complete the hero router in the `hero.js` file.
+- One the client side you will need to complete the `script.js` file.
+- `index.html` will need some ng directives to work with `script.js`.
 
 ##Hero Entry
 This will have a form to fill out and create new heroes. Each hero will have the following information on their record:
 
-* ```alias```  (this is their superhero name)
+* ```alias``` (this is their superhero name)
 * ```first_name```
 * ```last_name```
 * ```city```
@@ -24,4 +28,4 @@ This will have a form to fill out and create new heroes. Each hero will have the
 Store these in a Collection called ```heroes``` with Mongo.
 
 ##Hero Listing
-This should show a list of heroes, displaying all the information from the entry captured in the view before.
+This should show a list of heroes and their infomation. On page load all heroes currently in the database should be displayed. When a new hero is added the view should refresh automatically.
